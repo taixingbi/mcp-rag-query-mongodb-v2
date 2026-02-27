@@ -1,0 +1,18 @@
+# RAG
+pymongo[srv]==3.11
+langchain
+langchain-ollama
+pydantic-settings>=2.0
+
+# MCP
+MCP
+
+# Web (optional: for SSE transport)
+fastapi
+uvicorn[standard]
+
+# Env
+python-dotenv
+
+# Dev
+pytest
